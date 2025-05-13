@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JavaScript Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Interactive Playground!</h1>
+        
+        <!-- Event Handling -->
+        <button id="clickButton">Click me!</button>
+        <button id="hoverButton">Hover over me!</button>
+
+        <p>Press the "Enter" key</p>
+
+        <!-- Interactive Elements -->
+        <button id="changeButton">Click to Change Text and Color</button>
+        <div class="slideshow">
+            <img id="slideshowImage" src="https://via.placeholder.com/300" alt="Image Gallery">
+        </div>
+
+        <div class="tabs">
+            <button class="tab">Tab 1</button>
+            <button class="tab">Tab 2</button>
+            <button class="tab">Tab 3</button>
+        </div>
+
+        <div class="form-container">
+            <form id="form" action="#" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <p id="email-feedback"></p>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <p id="password-feedback"></p>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
